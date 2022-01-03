@@ -1,0 +1,29 @@
+.header{
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  overflow: auto;
+  padding:1em 0px;
+  margin:1em auto;
+  box-shadow: 0.5px 0.5px 0.5px #434346;
+}
+.header .search_title{
+  text-align: center;
+  margin:0 auto;
+  font-size:27px;
+  color:#434346;
+  margin-bottom: 15px;
+}
+.header .search_title .small{
+  font-size:10px;
+}
+.header .search{
+  max-width: 80%;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  height: 42px;
+  border-radius: 5px;
+  border: 1px solid #434346;
+  text-align: center;
+}
